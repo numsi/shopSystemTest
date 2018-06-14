@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+#header {
+    background-color:white;
+    color:black;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:white;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px; 
+}
+#section {
+	width:600px;
+    float:left;
+    padding:10px; 
+    text-align:center;
+}
+</style>
+</head>
+<body>
+<div id="header">
+<h2>商城后台管理系统</h2>
+</div>
+
+<div id="nav">
+<a href="showType.do" target="mainFrame" ><h4>商品类别管理</h4></a><br>
+<a href="addType.jsp" target="mainFrame" ><h4>商品类别添加</h4></a><br>
+<a href="showGoods.do" target="mainFrame" ><h4>商品信息管理</h4></a><br>
+<a href="toAddGoods.do" target="mainFrame" ><h4>商品信息添加</h4></a><br>
+<a href="exit.do" ><h4>系统退出</h4></a><br>
+</div>
+
+<div id="section">
+<iframe src="welcome.jsp" name="mainFrame"  height="450" width="1000" ></iframe>
+</div>
+
+</body>
+</html>
